@@ -34,7 +34,7 @@ let yeah = document.querySelector('.yeah')
 let img = document.querySelector('.img')
 yes.addEventListener('click',function(change){
   if(change.target.className == 'yes'){
-   img.src = 'img/Yay.gif';
+   img.src = 'Yay.gif';
    yeah.innerHTML = 'I Love uuuuuu';
    alert('Sunduin kita sa feb 14😍😍');
   }
